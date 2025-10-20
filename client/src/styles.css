@@ -1,0 +1,107 @@
+:root {
+  color-scheme: light dark;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #111827;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+}
+
+.map-container {
+  flex: 2 1 0;
+  position: relative;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.map-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #9ca3af;
+  background: radial-gradient(circle at center, #1f2937 0%, #0f172a 100%);
+  font-size: 1.2rem;
+}
+
+.weather-panel {
+  flex: 1 1 320px;
+  background: #1f2937;
+  border-left: 1px solid #374151;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.weather-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.weather-status {
+  color: #60a5fa;
+}
+
+.weather-error {
+  color: #f87171;
+}
+
+.weather-placeholder {
+  color: #9ca3af;
+}
+
+.weather-content {
+  display: grid;
+  gap: 0.75rem;
+  align-content: flex-start;
+}
+
+.weather-temp {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.weather-description {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+}
+
+@media (max-width: 900px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .map-container {
+    height: 60vh;
+  }
+
+  .weather-panel {
+    flex: none;
+    border-left: none;
+    border-top: 1px solid #374151;
+  }
+}

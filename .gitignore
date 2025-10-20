@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Node.js / Vite client artifacts
+client/node_modules/
+client/dist/
+client/.env
