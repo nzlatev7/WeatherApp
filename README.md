@@ -1,4 +1,3 @@
-<iframe src="https://clueso.site/embed/nv2bl0qpeicc21mv" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="width: 100%; aspect-ratio: 16/9; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameborder="0"></iframe>
 
 # WeatherApp Monorepo
 
