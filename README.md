@@ -1,5 +1,5 @@
 
-# WeatherApp Monorepo
+# WeatherApp
 
 Full‑stack weather viewer consisting of a React client and an ASP.NET Core backend that wraps OpenWeather’s One Call API.
 
